@@ -2,48 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
+  <suite name="Default suite" duration-ms="27222" started-at="2020-04-28T18:14:08Z" finished-at="2020-04-28T18:14:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
-      <class name="demo.Demo1">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:demo.Demo1@27f723]" name="beforeSuite" is-config="true" duration-ms="28" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
+    <test name="Default test" duration-ms="27222" started-at="2020-04-28T18:14:08Z" finished-at="2020-04-28T18:14:35Z">
+      <class name="demo.loginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.loginTest@27f723]" name="setup" is-config="true" duration-ms="23921" started-at="2020-04-28T18:14:08Z" finished-at="2020-04-28T18:14:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:demo.Demo1@27f723]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:demo.Demo1@27f723]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test()[pri:0, instance:demo.Demo1@27f723]" name="test" duration-ms="7" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:demo.loginTest@27f723]" name="test" duration-ms="3255" started-at="2020-04-28T18:14:32Z" finished-at="2020-04-28T18:14:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.Demo1@27f723]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.Demo1@27f723]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:demo.Demo1@27f723]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:demo.Demo1@27f723]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:demo.Demo1@27f723]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-04-27T17:02:49Z" finished-at="2020-04-27T17:02:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- demo.Demo1 -->
+      </class> <!-- demo.loginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
