@@ -15,7 +15,7 @@ public class loginTest {
 
 	@BeforeClass
 	public void setup() {
-		// Set the key/value property according to the browser you are using.
+		// Set the key/value property according to the browser you are using
 		System.setProperty("webdriver.chrome.driver", "D:\\Selenium JARS and Drivers\\chromedriver.exe");
 
 		// Open browser instance
