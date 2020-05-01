@@ -55,5 +55,25 @@
 	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/selenium-2.51.0/libs/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/selenium-2.51.0/selenium-java-2.51.0.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/selenium-2.51.0/selenium-java-2.51.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/poi-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/poi-examples-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/poi-excelant-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/poi-ooxml-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/poi-ooxml-schemas-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/poi-scratchpad-4.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/commons-compress-1.19.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/jaxb-impl-2.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/ooxml-schemas-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium JARS and Drivers/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
