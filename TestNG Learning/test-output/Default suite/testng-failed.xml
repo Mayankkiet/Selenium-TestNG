@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.Elementpractice">
+      <class name="demo.Elementpractice2">
         <methods>
           <include name="test"/>
-          <include name="teardown"/>
           <include name="setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- demo.Elementpractice -->
+      </class> <!-- demo.Elementpractice2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

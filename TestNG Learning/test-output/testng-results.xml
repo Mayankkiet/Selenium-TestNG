@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26614" started-at="2020-05-02T12:56:14Z" finished-at="2020-05-02T12:56:41Z">
+  <suite name="Default suite" duration-ms="77339" started-at="2020-05-02T15:21:01Z" finished-at="2020-05-02T15:22:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26614" started-at="2020-05-02T12:56:14Z" finished-at="2020-05-02T12:56:41Z">
+    <test name="Default test" duration-ms="77339" started-at="2020-05-02T15:21:01Z" finished-at="2020-05-02T15:22:19Z">
       <class name="demo.Elementpractice2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:demo.Elementpractice2@71e53b]" name="setup" is-config="true" duration-ms="16417" started-at="2020-05-02T12:56:15Z" finished-at="2020-05-02T12:56:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.Elementpractice2@71e53b]" name="setup" is-config="true" duration-ms="55796" started-at="2020-05-02T15:21:01Z" finished-at="2020-05-02T15:21:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:demo.Elementpractice2@71e53b]" name="test" duration-ms="7950" started-at="2020-05-02T12:56:31Z" finished-at="2020-05-02T12:56:39Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:demo.Elementpractice2@71e53b]" name="test" duration-ms="15913" started-at="2020-05-02T15:21:58Z" finished-at="2020-05-02T15:22:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:demo.Elementpractice2@71e53b]" name="teardown" is-config="true" duration-ms="2174" started-at="2020-05-02T12:56:39Z" finished-at="2020-05-02T12:56:41Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:demo.Elementpractice2@71e53b]" name="teardown" is-config="true" duration-ms="4476" started-at="2020-05-02T15:22:14Z" finished-at="2020-05-02T15:22:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

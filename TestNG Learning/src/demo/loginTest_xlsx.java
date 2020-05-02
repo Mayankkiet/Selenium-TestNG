@@ -48,6 +48,8 @@ public class loginTest_xlsx {
 
 		// Open AUT
 		driver.get(url);
+		
+		driver.manage().window().maximize();
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}

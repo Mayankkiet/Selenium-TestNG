@@ -34,6 +34,8 @@ public class loginTest_normal {
 
 		// Open AUT
 		driver.get(url);
+		
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 	}
 

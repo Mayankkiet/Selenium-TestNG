@@ -37,6 +37,8 @@ public class Elementpractice1 {
 
 		// Open AUT
 		driver.get(url);
+		
+		driver.manage().window().maximize();
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
