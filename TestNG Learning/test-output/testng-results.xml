@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25370" started-at="2020-05-01T18:31:46Z" finished-at="2020-05-01T18:32:12Z">
+  <suite name="Default suite" duration-ms="26614" started-at="2020-05-02T12:56:14Z" finished-at="2020-05-02T12:56:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25370" started-at="2020-05-01T18:31:46Z" finished-at="2020-05-01T18:32:12Z">
-      <class name="demo.loginTest_normal">
-        <test-method status="PASS" signature="setup()[pri:0, instance:demo.loginTest_normal@71e53b]" name="setup" is-config="true" duration-ms="20082" started-at="2020-05-01T18:31:46Z" finished-at="2020-05-01T18:32:06Z">
+    <test name="Default test" duration-ms="26614" started-at="2020-05-02T12:56:14Z" finished-at="2020-05-02T12:56:41Z">
+      <class name="demo.Elementpractice2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.Elementpractice2@71e53b]" name="setup" is-config="true" duration-ms="16417" started-at="2020-05-02T12:56:15Z" finished-at="2020-05-02T12:56:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:demo.loginTest_normal@71e53b]" name="test" duration-ms="3536" started-at="2020-05-01T18:32:06Z" finished-at="2020-05-01T18:32:10Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:demo.Elementpractice2@71e53b]" name="test" duration-ms="7950" started-at="2020-05-02T12:56:31Z" finished-at="2020-05-02T12:56:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:demo.loginTest_normal@71e53b]" name="teardown" is-config="true" duration-ms="1714" started-at="2020-05-01T18:32:10Z" finished-at="2020-05-01T18:32:12Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:demo.Elementpractice2@71e53b]" name="teardown" is-config="true" duration-ms="2174" started-at="2020-05-02T12:56:39Z" finished-at="2020-05-02T12:56:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- demo.loginTest_normal -->
+      </class> <!-- demo.Elementpractice2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
