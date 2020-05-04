@@ -22,7 +22,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Elementpractice2 {
+public class ElementPractice2 {
 
 	WebDriver driver;
 	String url = "http://the-internet.herokuapp.com/";
@@ -34,12 +34,14 @@ public class Elementpractice2 {
 
 		// Open browser instance
 		driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+
 
 		// Open AUT
 		driver.get(url);
 		
-      driver.manage().window().maximize();
-
+      
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 

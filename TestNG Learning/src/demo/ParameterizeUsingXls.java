@@ -33,7 +33,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class loginTest_xls {
+public class ParameterizeUsingXls {
 
 	WebDriver driver;
 	String url = "http://the-internet.herokuapp.com/";

@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
-public class loginTest_normal {
+public class SimpleLogIn {
 
 	WebDriver driver;
 	String url = "http://the-internet.herokuapp.com/";

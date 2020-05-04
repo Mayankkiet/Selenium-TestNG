@@ -1,12 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="demo.Elementpractice"/>
-      <class name="demo.loginTest_normal"/>
-      <class name="demo.loginTest_xls"/>
-      <class name="demo.loginTest_xlsx"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="NegativeTestsSuite" verbose="1">
+
+	<test name="PositiveTests">
+		<groups>
+			<run>
+				<include name="positiveTests"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="dmitry.LoginTests" />
+		</classes>
+	</test>
+
+	<test name="NegativeUsernameTests">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="incorrectUsername" />
+		<parameter name="password" value="SuperSecretPassword!" />
+		<parameter name="expectedMessage"
+			value="Your username is invalid!" />
+		<classes>
+			<class name="dmitry.LoginTests">
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="NegativePasswordTests">
+		<parameter name="browser" value="IE" />
+		<parameter name="username" value="tomsmith" />
+		<parameter name="password" value="incorrectPassword!" />
+		<parameter name="expectedMessage"
+			value="Your password is invalid!" />
+		<classes>
+			<class name="dmitry.LoginTests">
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
