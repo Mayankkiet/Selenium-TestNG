@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Exceptions_Tests_Suite">
-              <span class="suite-name border-passed">Exceptions Tests Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Log4j">
+              <span class="suite-name border-skipped">Log4j</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Exceptions_Tests_Suite">
+                  <a href="#" class="navigator-link " panel-name="test-xml-Log4j">
                     <span>C:\Users\Mayank\git\Test1\TestNG Learning\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Exceptions_Tests_Suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Log4j">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Exceptions_Tests_Suite">
+                  <a href="#" class="navigator-link " panel-name="group-Log4j">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Exceptions_Tests_Suite">
+                  <a href="#" class="navigator-link " panel-name="times-Log4j">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Exceptions_Tests_Suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Log4j">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Exceptions_Tests_Suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Log4j">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Exceptions_Tests_Suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Log4j">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Exceptions_Tests_Suite" class="hide-methods passed suite-Exceptions_Tests_Suite"> (hide)</a> <!-- hide-methods passed suite-Exceptions_Tests_Suite -->
-                      <a href="#" panel-name="suite-Exceptions_Tests_Suite" class="show-methods passed suite-Exceptions_Tests_Suite"> (show)</a> <!-- show-methods passed suite-Exceptions_Tests_Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Log4j" class="hide-methods skipped suite-Log4j"> (hide)</a> <!-- hide-methods skipped suite-Log4j -->
+                      <a href="#" panel-name="suite-Log4j" class="show-methods skipped suite-Log4j"> (show)</a> <!-- show-methods skipped suite-Log4j -->
                     </span>
-                    <div class="method-list-content passed suite-Exceptions_Tests_Suite">
+                    <div class="method-list-content skipped suite-Log4j">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Exceptions_Tests_Suite" title="dmitry.NoSuchElementException" hash-for-method="noSuchElementTest">noSuchElementTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Log4j" title="lex.Log4jXml" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Exceptions_Tests_Suite -->
+                    </div> <!-- method-list-content skipped suite-Log4j -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,24 +116,44 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Exceptions_Tests_Suite" class="panel Exceptions_Tests_Suite">
-          <div class="suite-Exceptions_Tests_Suite-class-passed">
+        <div panel-name="suite-Log4j" class="panel Log4j">
+          <div class="suite-Log4j-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">dmitry.NoSuchElementException</span>
+              <img src="skipped.png"/>
+              <span class="class-name">lex.Log4jXml</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="noSuchElementTest">
-                  </a> <!-- noSuchElementTest -->
-                  <span class="method-name">noSuchElementTest</span>
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.55 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Mayank-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at lex.Log4jXml.setup(Log4jXml.java:33)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Exceptions_Tests_Suite-class-passed -->
-        </div> <!-- panel Exceptions_Tests_Suite -->
-        <div panel-name="test-xml-Exceptions_Tests_Suite" class="panel">
+          </div> <!-- suite-Log4j-class-skipped -->
+        </div> <!-- panel Log4j -->
+        <div panel-name="test-xml-Log4j" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">C:\Users\Mayank\git\Test1\TestNG Learning\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -141,49 +161,44 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Exceptions Tests Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Exceptions Test&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Log4j&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Log4j Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;dmitry.NoSuchElementException&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;noSuchElementTest&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- dmitry.NoSuchElementException --&gt;
+      &lt;class name=&quot;lex.Log4jXml&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Exceptions Test --&gt;
-&lt;/suite&gt; &lt;!-- Exceptions Tests Suite --&gt;
+  &lt;/test&gt; &lt;!-- Log4j Test --&gt;
+&lt;/suite&gt; &lt;!-- Log4j --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Exceptions_Tests_Suite" class="panel">
+        <div panel-name="testlist-Log4j" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Exceptions Tests Suite</span>
+            <span class="header-content">Tests for Log4j</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Exceptions Test (1 class)</span>
+                <span class="test-name">Log4j Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Exceptions_Tests_Suite" class="panel">
+        <div panel-name="group-Log4j" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Exceptions Tests Suite</span>
+            <span class="header-content">Groups for Log4j</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Exceptions_Tests_Suite" class="panel">
+        <div panel-name="times-Log4j" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Exceptions Tests Suite</span>
+            <span class="header-content">Times for Log4j</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Exceptions_Tests_Suite');
-function tableData_Exceptions_Tests_Suite() {
+suiteTableInitFunctions.push('tableData_Log4j');
+function tableData_Log4j() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -191,61 +206,50 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'noSuchElementTest')
-data.setCell(0, 2, 'dmitry.NoSuchElementException')
-data.setCell(0, 3, 10477);
-window.suiteTableData['Exceptions_Tests_Suite']= { tableData: data, tableDiv: 'times-div-Exceptions_Tests_Suite'}
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'lex.Log4jXml')
+data.setCell(0, 3, 0);
+window.suiteTableData['Log4j']= { tableData: data, tableDiv: 'times-div-Log4j'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
-              <div id="times-div-Exceptions_Tests_Suite">
-              </div> <!-- times-div-Exceptions_Tests_Suite -->
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Log4j">
+              </div> <!-- times-div-Log4j -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Exceptions_Tests_Suite" class="panel">
+        <div panel-name="reporter-Log4j" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Exceptions Tests Suite</span>
+            <span class="header-content">Reporter output for Log4j</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Exceptions_Tests_Suite" class="panel">
+        <div panel-name="ignored-methods-Log4j" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">dmitry.NoSuchElementException</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">notVisibleTest</span>
-                <br/>
-                <span class="ignored-method-name">timeoutTest</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Exceptions_Tests_Suite" class="panel">
+        <div panel-name="chronological-Log4j" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">dmitry.NoSuchElementException</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(chrome)</span>
+              <div class="chronological-class-name">lex.Log4jXml</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">noSuchElementTest</span>
-                <span class="method-start">10869 ms</span>
+                <span class="method-name">test</span>
+                <span class="method-start">-1588677584255 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">21349 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,32 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Exceptions Tests Suite" duration-ms="23043" started-at="2020-05-05T03:21:19Z" finished-at="2020-05-05T03:21:42Z">
+  <suite name="Log4j" duration-ms="31206" started-at="2020-05-05T11:19:44Z" finished-at="2020-05-05T11:20:15Z">
     <groups>
     </groups>
-    <test name="Exceptions Test" duration-ms="23043" started-at="2020-05-05T03:21:19Z" finished-at="2020-05-05T03:21:42Z">
-      <class name="dmitry.NoSuchElementException">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:dmitry.NoSuchElementException@e24743]" name="setUp" is-config="true" duration-ms="10869" started-at="2020-05-05T03:21:20Z" finished-at="2020-05-05T03:21:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Log4j Test" duration-ms="31206" started-at="2020-05-05T11:19:44Z" finished-at="2020-05-05T11:20:15Z">
+      <class name="lex.Log4jXml">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:lex.Log4jXml@76c8cd]" name="setup" is-config="true" duration-ms="31084" started-at="2020-05-05T11:19:44Z" finished-at="2020-05-05T11:20:15Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.55 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Mayank-PC', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.55 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Mayank-PC', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+at lex.Log4jXml.setup(Log4jXml.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="noSuchElementTest()[pri:3, instance:dmitry.NoSuchElementException@e24743]" name="noSuchElementTest" duration-ms="10477" started-at="2020-05-05T03:21:30Z" finished-at="2020-05-05T03:21:41Z">
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="test()[pri:0, instance:lex.Log4jXml@76c8cd]" name="test" duration-ms="0" started-at="2020-05-05T11:20:15Z" finished-at="2020-05-05T11:20:15Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.55 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Mayank-PC', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.55 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Mayank-PC', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+at lex.Log4jXml.setup(Log4jXml.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- noSuchElementTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:dmitry.NoSuchElementException@e24743]" name="tearDown" is-config="true" duration-ms="1579" started-at="2020-05-05T03:21:41Z" finished-at="2020-05-05T03:21:42Z">
+        </test-method> <!-- test -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:lex.Log4jXml@76c8cd]" name="teardown" is-config="true" duration-ms="0" started-at="2020-05-05T11:20:15Z" finished-at="2020-05-05T11:20:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- dmitry.NoSuchElementException -->
-    </test> <!-- Exceptions Test -->
-  </suite> <!-- Exceptions Tests Suite -->
+        </test-method> <!-- teardown -->
+      </class> <!-- lex.Log4jXml -->
+    </test> <!-- Log4j Test -->
+  </suite> <!-- Log4j -->
 </testng-results>

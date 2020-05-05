@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Exceptions Tests Suite" verbose="1">
+<suite name="Log4j" verbose="1">
 
-	<test name="Exceptions Test">
-		<parameter name="browser" value="chrome"></parameter>
+	<test name="Log4j Test">
 		<classes>
-			<class name="dmitry.NoSuchElementException">
-				<methods>
-					<include name="noSuchElementTest"></include>
-				</methods>
+			<class name="lex.Log4jXml">
+			
 			</class>
 		</classes>
 	</test>
