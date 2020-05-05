@@ -1,4 +1,4 @@
-/** (1) Open URL and provide implicit wait of 5 seconds
+/** (1) Open URL and provide implicit wait of 5 second
  *  (2) Give User name , Password and click Submit
  *  (3) *Give Explicit Wait of 2 seconds  and observe the success message and verify it 
  *  (4) Close URL
