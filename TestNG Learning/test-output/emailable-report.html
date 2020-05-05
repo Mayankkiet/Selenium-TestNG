@@ -8,110 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">NegativeTestsSuite</th></tr>
-<tr><td><a href="#t0">PositiveTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">19,290</td><td>positiveTests</td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">NegativeUsernameTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">21,492</td><td></td><td></td></tr>
-<tr><td><a href="#t2">NegativePasswordTests</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">2,529</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num attn">1</th><th class="num">0</th><th class="num">43,311</th><th colspan="2"></th></tr>
+<tr><th colspan="7">Exceptions Tests Suite</th></tr>
+<tr><td><a href="#t0">Exceptions Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">23,043</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NegativeTestsSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PositiveTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">dmitry.LoginTests</td><td><a href="#m0">positiveLoginTest</a></td><td rowspan="1">1588562657215</td><td rowspan="1">9727</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">NegativeUsernameTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">dmitry.LoginTests</td><td><a href="#m1">negativeLoginTest</a></td><td rowspan="1">1588562675566</td><td rowspan="1">12616</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">NegativePasswordTests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">dmitry.LoginTests</td><td><a href="#m2">setUp</a></td><td rowspan="1">1588562691536</td><td rowspan="1">2480</td></tr><tr class="failedeven"><td><a href="#m3">tearDown</a></td><td rowspan="1">1588562694044</td><td rowspan="1">1</td></tr><tr><th colspan="4">NegativePasswordTests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">dmitry.LoginTests</td><td><a href="#m4">negativeLoginTest</a></td><td rowspan="1">1588562694030</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Exceptions Tests Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Exceptions Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">dmitry.NoSuchElementException</td><td><a href="#m0">noSuchElementTest</a></td><td rowspan="1">1588648890896</td><td rowspan="1">10477</td></tr></tbody>
 </table>
-<h2>PositiveTests</h2><h3 id="m0">dmitry.LoginTests#positiveLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>NegativeUsernameTests</h2><h3 id="m1">dmitry.LoginTests#negativeLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>incorrectUsername</td><td>SuperSecretPassword!</td><td>Your username is invalid!</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>NegativePasswordTests</h2><h3 id="m2">dmitry.LoginTests#setUp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>IE</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
-System info: host: &apos;Mayank-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:234)
-	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:182)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:174)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:146)
-	at dmitry.LoginTests.setUp(LoginTests.java:33)
-Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
-Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
-System info: host: &apos;Mayank-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 34 more
-Caused by: java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at org.apache.http.impl.conn.LoggingInputStream.read(LoggingInputStream.java:87)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	... 35 more
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">dmitry.LoginTests#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at dmitry.LoginTests.tearDown(LoginTests.java:140)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">dmitry.LoginTests#negativeLoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
-System info: host: &apos;Mayank-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:234)
-	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:182)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:174)
-	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:146)
-	at dmitry.LoginTests.setUp(LoginTests.java:33)
-Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
-Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
-System info: host: &apos;Mayank-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: InternetExplorerDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 34 more
-Caused by: java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at org.apache.http.impl.conn.LoggingInputStream.read(LoggingInputStream.java:87)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	... 35 more
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Exceptions Test</h2><h3 id="m0">dmitry.NoSuchElementException#noSuchElementTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
