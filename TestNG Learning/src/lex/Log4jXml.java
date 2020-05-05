@@ -76,3 +76,56 @@ public class Log4jXml {
 	}
 	
 }
+
+
+/*<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration>
+  <appender name="ConsoleAppender" class="org.apache.log4j.ConsoleAppender">
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{MM/dd HH:mm:ss} %-5p %30.30c %x - %m\n"/>
+    </layout>
+  </appender>
+  <appender name="FileAppender" class="org.apache.log4j.RollingFileAppender">
+    <param name="File" value=".\\Logs\\AppLogs.log"/>
+    <param name="MaxFileSize" value="10MB"/>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{MM/dd HH:mm:ss} %-5p %30.30c %x - %m\n"/>
+    </layout>
+  </appender>
+  <logger name="com.digitalsanctum.builder.web" additivity="false">
+    <level value="debug"/>
+    <appender-ref ref="ConsoleAppender"/>
+  </logger>
+  <root>
+    <level value="info"/>
+    <appender-ref ref="ConsoleAppender"/>
+    <appender-ref ref="FileAppender"/>
+  </root>
+</log4j:configuration>
+    
+    
+    05/05 19:40:46 INFO                    lex.Log4jXml  - Opening Home Page
+    The Internet
+    [1588687848.882][SEVERE]: Timed out receiving message from renderer: 0.100
+    [1588687848.985][SEVERE]: Timed out receiving message from renderer: 0.100
+    05/05 19:40:49 INFO                    lex.Log4jXml  - Entering Username
+    05/05 19:40:49 INFO                    lex.Log4jXml  - Entering Password
+    05/05 19:40:50 INFO                    lex.Log4jXml  - Click on Login button
+    05/05 19:40:50 INFO                    lex.Log4jXml  - Actual message fetched You logged into a secure area!
+    ×
+    05/05 19:40:50 INFO                    lex.Log4jXml  - Driver Closed
+
+    ===============================================
+    Log4j
+    Total tests run: 1, Failures: 0, Skips: 0
+    ===============================================
+----------------------------------------------------------------------------------------
+    		05/05 19:40:46 INFO                    lex.Log4jXml  - Opening Home Page
+    		05/05 19:40:49 INFO                    lex.Log4jXml  - Entering Username
+    		05/05 19:40:49 INFO                    lex.Log4jXml  - Entering Password
+    		05/05 19:40:50 INFO                    lex.Log4jXml  - Click on Login button
+    		05/05 19:40:50 INFO                    lex.Log4jXml  - Actual message fetched You logged into a secure area!
+    		×
+    		05/05 19:40:50 INFO                    lex.Log4jXml  - Driver Closed  */  
+ 

@@ -1,0 +1,7 @@
+05/05 19:40:46 INFO                    lex.Log4jXml  - Opening Home Page
+05/05 19:40:49 INFO                    lex.Log4jXml  - Entering Username
+05/05 19:40:49 INFO                    lex.Log4jXml  - Entering Password
+05/05 19:40:50 INFO                    lex.Log4jXml  - Click on Login button
+05/05 19:40:50 INFO                    lex.Log4jXml  - Actual message fetched You logged into a secure area!
+×
+05/05 19:40:50 INFO                    lex.Log4jXml  - Driver Closed

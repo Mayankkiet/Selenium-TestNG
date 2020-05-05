@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Log4j">
-              <span class="suite-name border-skipped">Log4j</span>
+              <span class="suite-name border-passed">Log4j</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Log4j" class="hide-methods skipped suite-Log4j"> (hide)</a> <!-- hide-methods skipped suite-Log4j -->
-                      <a href="#" panel-name="suite-Log4j" class="show-methods skipped suite-Log4j"> (show)</a> <!-- show-methods skipped suite-Log4j -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Log4j" class="hide-methods passed suite-Log4j"> (hide)</a> <!-- hide-methods passed suite-Log4j -->
+                      <a href="#" panel-name="suite-Log4j" class="show-methods passed suite-Log4j"> (show)</a> <!-- show-methods passed suite-Log4j -->
                     </span>
-                    <div class="method-list-content skipped suite-Log4j">
+                    <div class="method-list-content passed suite-Log4j">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Log4j" title="lex.Log4jXml" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Log4j -->
+                    </div> <!-- method-list-content passed suite-Log4j -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Log4j" class="panel Log4j">
-          <div class="suite-Log4j-class-skipped">
+          <div class="suite-Log4j-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">lex.Log4jXml</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,30 +128,10 @@
                   <a name="test">
                   </a> <!-- test -->
                   <span class="method-name">test</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
-from disconnected: Unable to receive message from renderer
-  (Session info: chrome=81.0.4044.129)
-  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 8.55 seconds
-Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
-System info: host: &apos;Mayank-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:170)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:159)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
-	at lex.Log4jXml.setup(Log4jXml.java:33)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Log4j-class-skipped -->
+          </div> <!-- suite-Log4j-class-passed -->
         </div> <!-- panel Log4j -->
         <div panel-name="test-xml-Log4j" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -208,12 +188,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test')
 data.setCell(0, 2, 'lex.Log4jXml')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 2449);
 window.suiteTableData['Log4j']= { tableData: data, tableDiv: 'times-div-Log4j'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Log4j">
               </div> <!-- times-div-Log4j -->
             </div> <!-- times-div -->
@@ -241,15 +221,17 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">lex.Log4jXml</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test</span>
-                <span class="method-start">-1588677584255 ms</span>
+                <span class="method-start">15705 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">18157 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
