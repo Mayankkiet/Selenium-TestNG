@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Log4j" verbose="1">
+<suite name="test-parameter">
 
-	<test name="Log4j Test">
-		<classes>
-			<class name="lex.Log4jXml">
-			
-			</class>
-		</classes>
-	</test>
+  <test name="example1">
+
+    <groups>
+        <run>
+            <include name="A" />
+        </run>
+    </groups>
+
+    <classes>
+       <class
+        name="guru99.ParameterByITestContextInDataprovider" />
+    </classes>
+
+  </test>
+
+
+  <test name="example2">
+
+    <groups>
+        <run>
+            <include name="B" />
+        </run>
+    </groups>
+
+    <classes>
+       <class
+        name="guru99.ParameterByITestContextInDataprovider" />
+    </classes>
+
+  </test>
 
 </suite>

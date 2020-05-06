@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dmitry.TimeOutException">
+      <class name="guru99.DataProviderSimple">
         <methods>
-          <include name="setUp"/>
-          <include name="timeoutTest"/>
           <include name="tearDown"/>
+          <include name="testMethod" invocation-numbers="1 2"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- dmitry.TimeOutException -->
+      </class> <!-- guru99.DataProviderSimple -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
