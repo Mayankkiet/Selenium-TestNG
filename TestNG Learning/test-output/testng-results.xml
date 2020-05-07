@@ -1,120 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="test-parameter" duration-ms="42270" started-at="2020-05-06T17:29:30Z" finished-at="2020-05-06T17:30:13Z">
+  <suite name="Default suite" duration-ms="13439" started-at="2020-05-07T01:49:37Z" finished-at="2020-05-07T01:49:50Z">
     <groups>
-      <group name="A">
-        <method signature="ParameterByITestContextInDataprovider.testMethodA(java.lang.String, java.lang.String)[pri:0, instance:guru99.ParameterByITestContextInDataprovider@cd23d9]" name="testMethodA" class="guru99.ParameterByITestContextInDataprovider"/>
-      </group> <!-- A -->
-      <group name="B">
-        <method signature="ParameterByITestContextInDataprovider.testMethodB(java.lang.String)[pri:0, instance:guru99.ParameterByITestContextInDataprovider@1bbf683]" name="testMethodB" class="guru99.ParameterByITestContextInDataprovider"/>
-      </group> <!-- B -->
     </groups>
-    <test name="example1" duration-ms="25844" started-at="2020-05-06T17:29:30Z" finished-at="2020-05-06T17:29:56Z">
-      <class name="guru99.ParameterByITestContextInDataprovider">
-        <test-method status="PASS" signature="setup()[pri:0, instance:guru99.ParameterByITestContextInDataprovider@cd23d9]" name="setup" is-config="true" duration-ms="11626" started-at="2020-05-06T17:29:30Z" finished-at="2020-05-06T17:29:42Z">
+    <test name="Default test" duration-ms="13439" started-at="2020-05-07T01:49:37Z" finished-at="2020-05-07T01:49:50Z">
+      <class name="demo.WebTable">
+        <test-method status="PASS" signature="setup()[pri:0, instance:demo.WebTable@71e53b]" name="setup" is-config="true" duration-ms="11092" started-at="2020-05-07T01:49:37Z" finished-at="2020-05-07T01:49:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:guru99.ParameterByITestContextInDataprovider@cd23d9]" name="testMethodA" duration-ms="3370" started-at="2020-05-06T17:29:42Z" data-provider="SearchProvider" finished-at="2020-05-06T17:29:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Guru99]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="test()[pri:0, instance:demo.WebTable@71e53b]" name="test" duration-ms="239" started-at="2020-05-07T01:49:48Z" finished-at="2020-05-07T01:49:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethodA -->
-        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:guru99.ParameterByITestContextInDataprovider@cd23d9]" name="testMethodA" duration-ms="3235" started-at="2020-05-06T17:29:45Z" data-provider="SearchProvider" finished-at="2020-05-06T17:29:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Krishna]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UK]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:demo.WebTable@71e53b]" name="teardown" is-config="true" duration-ms="2074" started-at="2020-05-07T01:49:48Z" finished-at="2020-05-07T01:49:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethodA -->
-        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:guru99.ParameterByITestContextInDataprovider@cd23d9]" name="testMethodA" duration-ms="3236" started-at="2020-05-06T17:29:49Z" data-provider="SearchProvider" finished-at="2020-05-06T17:29:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bhupesh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[USA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodA -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:guru99.ParameterByITestContextInDataprovider@cd23d9]" name="tearDown" is-config="true" duration-ms="4258" started-at="2020-05-06T17:29:52Z" finished-at="2020-05-06T17:29:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- guru99.ParameterByITestContextInDataprovider -->
-    </test> <!-- example1 -->
-    <test name="example2" duration-ms="16145" started-at="2020-05-06T17:29:56Z" finished-at="2020-05-06T17:30:13Z">
-      <class name="guru99.ParameterByITestContextInDataprovider">
-        <test-method status="PASS" signature="setup()[pri:0, instance:guru99.ParameterByITestContextInDataprovider@1bbf683]" name="setup" is-config="true" duration-ms="5194" started-at="2020-05-06T17:29:56Z" finished-at="2020-05-06T17:30:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:guru99.ParameterByITestContextInDataprovider@1bbf683]" name="testMethodB" duration-ms="3345" started-at="2020-05-06T17:30:02Z" data-provider="SearchProvider" finished-at="2020-05-06T17:30:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Canada]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodB -->
-        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:guru99.ParameterByITestContextInDataprovider@1bbf683]" name="testMethodB" duration-ms="3256" started-at="2020-05-06T17:30:05Z" data-provider="SearchProvider" finished-at="2020-05-06T17:30:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Russia]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodB -->
-        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:guru99.ParameterByITestContextInDataprovider@1bbf683]" name="testMethodB" duration-ms="3247" started-at="2020-05-06T17:30:08Z" data-provider="SearchProvider" finished-at="2020-05-06T17:30:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Japan]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodB -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:guru99.ParameterByITestContextInDataprovider@1bbf683]" name="tearDown" is-config="true" duration-ms="1098" started-at="2020-05-06T17:30:11Z" finished-at="2020-05-06T17:30:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- guru99.ParameterByITestContextInDataprovider -->
-    </test> <!-- example2 -->
-  </suite> <!-- test-parameter -->
+        </test-method> <!-- teardown -->
+      </class> <!-- demo.WebTable -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="guru99.DataProviderSimple">
+      <class name="demo.WebTable">
         <methods>
-          <include name="tearDown"/>
-          <include name="testMethod" invocation-numbers="1 2"/>
           <include name="setup"/>
+          <include name="test"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- guru99.DataProviderSimple -->
+      </class> <!-- demo.WebTable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
